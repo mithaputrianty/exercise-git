@@ -16,6 +16,6 @@ Scenario Outline: Login menggunakan data invalid
 
     Examples:
         | username | password  | pesan_error |
-        # | superadmin@gmail.com | admin123  | INVALID CREDENTIAL |
+        | superadmin@gmail.com | admin123  | INVALID CREDENTIAL |
         | ADMIN    | superadmin  | Authentication failed: User doesn't exist or is not active! |
         | adminbysa@mailinator.com  | adminbysa | Authentication failed: User doesn't exist or is not active! |
